@@ -1,5 +1,9 @@
-public class Main {
+import java.util.Scanner;
+
+public class TicTacToe {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Game game = new Game();
+        game.startGame();
     }
 }
+
